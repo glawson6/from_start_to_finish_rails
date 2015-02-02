@@ -1,0 +1,253 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif:700italic,700);
+body {
+    background: url("../images/veggies-2.jpeg") no-repeat center center fixed;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    background-size: cover;
+    color: #27987C;
+}
+
+.jumbotron{
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 0;
+
+}
+
+.recipe-table{
+    color: #ffffff;
+}
+
+.left-box{
+    border: solid black;
+
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+}
+
+.container-extras{
+    background: url("../images/veggies-bw.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul.nav li a:hover {
+    background-color: #003D2E !important;
+}
+
+ul.nav li a {
+    color: #00C6A1 !important;
+}
+
+.recipes-link{
+    color: #00C6A1;
+}
+section.recipe-table table.table tbody tr{
+    color: #ffffff;
+}
+section.recipe-table table.table tbody tr a{
+    color: #ffffff;
+}
+.recipe{
+    background-color: #222222;
+    padding-bottom: 20px;
+
+}
+.recipes-title{
+    color: #ffffff;
+}
+
+.ingredients{
+    color: #ffffff;
+}
+
+.directions{
+    color: #ffffff;
+
+}
+section.recipe-table form button{
+    color: #00C6A1;
+}
+
+section.recipe-table form button{
+    color: #00C6A1;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+/*
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    float: left;
+}
+*/
+
+.jumbo-opacity{
+    opacity: 0.5;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    
+}
+
+.menu-container {
+    text-align: center;
+}
+
+div.menu-top {
+
+}
+
+div.menu-top ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+div.menu-top li {
+    float: left;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.dl-horizontal dt {
+    text-align: left;
+    padding-right: 1em;
+}
+
+.dl-horizontal dd {
+    /*margin-left: 0;*/
+    margin-bottom: 1em;
+}
+
+/* End of Twitter Bootstrap Overrides */
+
+
+.items {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.items p {
+    font-size: 2.0rem;
+    margin-left: 20px;
+}
+
+.panel-heading h4 {
+    color: #337ab7;
+}
+
+.item {
+    margin-top: 30px;
+}
+
+.item h2 {
+    margin-bottom: 20px;
+}
+
+.item-image {
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.item-image img {
+}
+
+.back {
+    margin-top: 40px;
+}
+
+.search {
+    text-align: center;
+}
+
+.pseudo-table {
+    display:table;
+    border-collapse: separate;
+    border-spacing: 0px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.4em;
+    background-color: #303030;
+}
+.pseudo-table-row {
+    display:table-row;
+    background:#EEE;
+    margin: 10px;
+    padding: 10px;
+    background-color: #303030;
+}
+.pseudo-table-cell {
+    display:table-cell;
+    border-top: 1px solid #dddddd;
+    margin: 10px;
+    padding: 10px;
+    width:100%;
+}
+
+a.pseudo-table-row:hover {
+    opacity: 0.5;
+}
+.pseudo-table a {
+    text-decoration: none;
+}
+/*
+table {
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+tr {
+    background:#EEE;
+}
+td {
+    border-top: 1px solid #dddddd;
+}
+*/
+a:hover {
+    background:#DDD;
+}
+p.our-story-p {
+    text-indent: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+p.home-message {
+    text-indent: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.border-dressing{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+.navbar-border-dressing{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #ffffff;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #ffffff;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #ffffff;
+}
